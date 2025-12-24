@@ -13,8 +13,8 @@ from agentscope.tool import Toolkit
 from agentscope.message import Msg
 
 # API密钥
-GAODE_API_KEY = os.getenv("GAODE_API_KEY", "0bd115daa3976ab7d4b4d1c3bb0036dd")
-DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "sk-fabdcb62db0e4ab1800efa704bd32314")
+GAODE_API_KEY = os.getenv("GAODE_API_KEY", "")
+DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "")
 
 async def create_map_search(client):
     """创建map_search函数 - 封装高德MCP调用"""
